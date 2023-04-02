@@ -58,7 +58,7 @@ document.getElementById("open-input").addEventListener("change", function () {
 });
 
 document.getElementById("info").addEventListener("click", function () {
-    create_window("/info.html", "Usage/About", false);
+    create_window("./info.html", "Usage/About", false);
 });
 
 /* -------------------------------------------------------------------------- */
